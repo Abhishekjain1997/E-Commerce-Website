@@ -1,0 +1,46 @@
+
+.cartList{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.image{ 
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right: 3rem;
+    margin-right: 3px;
+}
+.title{
+    position: relative;
+    right: 5rem;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 6.8rem;
+}
+.title>h3{
+    font-weight: 700;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+} 
+.itemPrice{
+    position: relative;
+    right: 6rem;
+    top: 2rem;
+}
+.removeBtn{
+    height: 3rem;
+    border-radius: 15%;
+    width: 5rem;
+    background-color: rgb(233, 81, 81);
+    margin-top: 1.5rem;
+}
+.quantity{
+    font-weight: 700;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}

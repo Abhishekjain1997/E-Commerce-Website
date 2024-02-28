@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    text-align: center;
+    margin:0;
+    padding:0px;
+    padding-bottom:30px;
+    background:#777;
+    color:white;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    letter-spacing: 1.6px;
+}
+
+header h1{
+    padding:40px;
+    font-size:100px;
+}
+header ul{
+    display:flex;
+    padding:10px;
+    font-size:18px;
+    font-weight:200;
+    justify-content: center;
+    list-style-type: none;
+    border-bottom:0.1rem solid white;
+    position: fixed;
+    top: 0%;
+    background: black;
+    height: 4rem;
+    width: 100%;
+    z-index: 1;
+}
+header li{
+    margin:5px 40px;
+    max-width: 9rem;
+}
+header li a{
+    text-decoration: none;
+    color:white;
+}
+.cartData{
+  margin-left: 15rem;
+  max-width: 8rem;
+  max-height: 80%;
+}
+.cart_number{
+    display: inline-block;
+    color: cyan;
+    font-size: 24px;
+}
+.cart_holder{ 
+    border: 4px solid cyan;
+    border-radius: 20%;
+    width: 4rem;
+    height: 1.8rem;
+    text-decoration: none;
+}
+.cart_holder:hover{
+    width: 4.5rem;
+    height: 2rem;
+    box-shadow: 4px 3px 8px rgb(239, 252, 252);
+}
+.header a:hover,
+.logoutBtn:hover {
+    color: red;
+    font-weight: bold; 
+    box-shadow: 3px 2px 8px rgb(250, 249, 249);
+    font-size: 20px;
+  }
+ .logoutBtn{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+ }

@@ -1,0 +1,85 @@
+.heading{
+    text-align: center;
+    font-weight: 700 ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    max-width:900px;
+    padding:20px 30px;
+    align-items: center;
+}
+.content-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-bottom: 40px;
+}
+.content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 40vw;
+}
+.content a{
+    text-decoration: none;
+}
+.content div{
+    margin:10px 40px 10px 20px;
+}
+.content div h3{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.prod-details{
+    display: flex;
+    margin: 8px;
+    align-items: center;
+    justify-content: space-around;
+}
+.prod-details>span{
+    font-size: 20px;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+    left: 5rem;
+}
+.prod-images{
+    transform-origin: center ;
+    align-self: center;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding:0px;
+    margin:0px;
+    transition: ease-in 0.5s;
+    filter: brightness(100%);
+}
+.prod-images:hover{
+    transform: scale(1.5);
+    filter: brightness(130%);
+}
+.shop-item-button{
+    cursor:pointer;
+    padding:8px;
+    color:white;
+    border:none;
+    font-size:15px;
+    font-weight: bold;
+    border-radius: 4%;
+    background-color: #56CCF2;
+    position: relative;
+   
+}
+
+.shop-item-button:hover{
+    background-color: #0eabdf;
+}
